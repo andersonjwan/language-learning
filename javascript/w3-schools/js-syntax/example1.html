@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JS, Expressions</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>My First Page</h1>
+        <p>First paragraph</p>
+        <button type="button" onclick="addSum()">1 + 2 = ?</button>
+        <p id="demo"></p>
+
+        <script>
+         function addSum() {
+             var x, y;
+             x = 1;
+             y = 2;
+
+             document.getElementById("demo").innerHTML = x + y;
+         }
+        </script>
+    </body>
+</html>
